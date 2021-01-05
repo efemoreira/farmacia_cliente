@@ -1,0 +1,7 @@
+#Mon Dec 21 11:37:31 BRT 2020
+base.0=/Users/felipemoreira/poc_cliente/android/app/build/intermediates/dex/release/mergeDexRelease/out/classes.dex
+path.1=classes2.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=/Users/felipemoreira/poc_cliente/android/app/build/intermediates/dex/release/mergeDexRelease/out/classes2.dex

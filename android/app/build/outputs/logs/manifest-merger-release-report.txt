@@ -1,0 +1,964 @@
+-- Merging decision tree log ---
+permission#com.RNBackgroundActionsTask.permission.C2D_MESSAGE
+INJECTED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:26:5-28:45
+MERGED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:7:5-9:47
+	android:protectionLevel
+		ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:28:7-42
+	android:name
+		INJECTED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:27:7-61
+uses-permission#com.RNBackgroundActionsTask.permission.C2D_MESSAGE
+INJECTED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:29:5-79
+MERGED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:11:5-79
+	android:name
+		INJECTED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:29:22-76
+manifest
+ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:1:1-100:12
+INJECTED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:1:1-100:12
+INJECTED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:1:1-100:12
+INJECTED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:1:1-100:12
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/2c67e628ec5e10a6dc480e38352e91b8/multidex-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [:react-native-push-notification] /Users/felipemoreira/poc_cliente/node_modules/react-native-push-notification/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-community_async-storage] /Users/felipemoreira/poc_cliente/node_modules/@react-native-community/async-storage/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-community_datetimepicker] /Users/felipemoreira/poc_cliente/node_modules/@react-native-community/datetimepicker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-13:12
+MERGED from [:react-native-community_masked-view] /Users/felipemoreira/poc_cliente/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-community_toolbar-android] /Users/felipemoreira/poc_cliente/node_modules/@react-native-community/toolbar-android/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-background-actions] /Users/felipemoreira/poc_cliente/node_modules/react-native-background-actions/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-13:12
+MERGED from [:react-native-gesture-handler] /Users/felipemoreira/poc_cliente/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-image-picker] /Users/felipemoreira/poc_cliente/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-21:12
+MERGED from [:react-native-kontaktio] /Users/felipemoreira/poc_cliente/node_modules/react-native-kontaktio/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-27:12
+MERGED from [:react-native-onesignal] /Users/felipemoreira/poc_cliente/node_modules/react-native-onesignal/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-reanimated] /Users/felipemoreira/poc_cliente/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-safe-area-context] /Users/felipemoreira/poc_cliente/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-screens] /Users/felipemoreira/poc_cliente/node_modules/react-native-screens/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-vector-icons] /Users/felipemoreira/poc_cliente/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.react:react-native:0.62.2] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/1c5df223a9a2df949a801e0ef9a6f1e7/jetified-react-native-0.62.2/AndroidManifest.xml:2:1-13:12
+MERGED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:2:1-122:12
+MERGED from [androidx.browser:browser:1.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/1502ef13e4107c97aa0c7f716e06e9a0/browser-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/a0cc55542e7f80901507e4e652970d1e/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/055a171d10c43231a2795117ecd4c3fd/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [org.webkit:android-jsc:r245459] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/1ed26cdc1f47a6754ce1546799dd43a1/android-jsc-r245459/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.material:material:1.1.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/7b4521e09033db39989053c4a0984cc2/material-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/2b7e6ebaa515cd43f42fb356f0d1941c/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [me.leolin:ShortcutBadger:1.1.22] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/bd2bbcd276844ceb33e057af9bc9d953/ShortcutBadger-1.1.22/AndroidManifest.xml:2:1-52:12
+MERGED from [com.google.firebase:firebase-messaging:21.0.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/12ac603724a5876acb587d4b43d9d021/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:17:1-45:12
+MERGED from [com.google.firebase:firebase-datatransport:17.0.10] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/97d58ff9fc579eb85391e02cf487fdf5/firebase-datatransport-17.0.10/AndroidManifest.xml:15:1-34:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/5832ca22fba61f4b836055a1f2dada0f/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.5] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/de21729780878a49f216bd07dbb8213f/jetified-transport-runtime-2.2.5/AndroidManifest.xml:15:1-41:12
+MERGED from [com.facebook.fresco:fresco:2.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/83ef104dfb430f397d92e4759e916162/fresco-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/8547c58d8a189afcab5540191afe7320/imagepipeline-okhttp3-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:2.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/ee0a0f1df6ec82b39c6bd94672681bab/drawee-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/fbdc3e33c0cf4fb6618b3fcc8d105591/nativeimagefilters-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/c3b7b12f448628b281d0d62b884cad68/imagepipeline-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/3b198830d922c7c36b5728d232b5dfa2/nativeimagetranscoder-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/8b504391aa72c1fccbfde5f9aecf364d/imagepipeline-base-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.8.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/9de4f137b5bba80ebab04e77dc5095d4/soloader-0.8.0/AndroidManifest.xml:2:1-13:12
+MERGED from [com.kontaktio:sdk:4.0.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/f283f2b1c14122006a53527ef68513c6/sdk-4.0.1/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/3eb43dcc83336306d77ef63b3402a327/appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/edab9a506dbd8c78a6f1a18fc4eb209e/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/3e974e7e51555c82be5b9fd468966b2b/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-iid:21.0.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/0d19aee348d6d9d6f3dc0e7b62546afc/firebase-iid-21.0.1/AndroidManifest.xml:17:1-47:12
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/0e4025356d09b89949e11d2a7d389e01/play-services-cloud-messaging-16.0.0/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/d913e169400b8c01c0bb4a9a48c96bb0/play-services-stats-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-installations:16.3.5] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/19cc6065970dfa1c36aca42e79a10040/firebase-installations-16.3.5/AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.firebase:firebase-common:19.5.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/a957bd94864a0dc13aecd6a2a08cb585/jetified-firebase-common-19.5.0/AndroidManifest.xml:15:1-49:12
+MERGED from [com.google.firebase:firebase-installations-interop:16.0.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/75cd08ddfa2e3a5ce804bc2c31d815f7/firebase-installations-interop-16.0.1/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.android.gms:play-services-location:15.0.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/419b0ea1ddfce98c381a36966f8d7f13/jetified-play-services-location-15.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/8418dc3980d9b820e9bd67c67fa7c5f1/firebase-iid-interop-17.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/6d45d9e0505112f0eec54f8796757f91/play-services-base-17.0.0/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/6158af36f33dab56a52a643764c9ece8/play-services-tasks-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/5bcc5ffe0611964dbc9ba5667cbf30dc/firebase-measurement-connector-18.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/857d20595f83afb926b7b2c201b00292/jetified-play-services-ads-identifier-16.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/e31722fa2accb80820b4c9a1b61c1e65/play-services-places-placereport-15.0.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/e8059d4c5b195d19e550c58ecdbc7943/jetified-play-services-basement-17.0.0/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/33fa28bb10cd4d05c9c7b76910e2f1d7/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.2.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/57896e3f8d3af1ea30640dfb96021293/fragment-1.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/420bad76d144494602cd19d31fe9bd87/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-components:16.1.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/4545e768701f94332557301c4840215f/jetified-firebase-components-16.1.0/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/f76102809c884a586ad2f2fe99b2bdc1/firebase-encoders-json-17.1.0/AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/97914c6c2bf3a10c0dbc0cbbac018fe9/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/3d8e4bc7a6af7aacf11542b377d7496f/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/b95a670ae7bd376b7902e15855cd0ee3/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/35cad5169a4745c0bfde91156540bc0d/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/b3384283a73b276daf1e9a12cf250bb7/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.1.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/90a42a2ce697149cad235e929844c219/activity-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/24d6d583c434259890735095825ff497/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/d12f3cd832a8f12aaa6c028e5d7796c3/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/f1fdfdf03c30563a3eb92f6c5b5051ce/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/a25b01144be0941df6bba7293d8c0f17/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/e9872f4e302f432d4ed640cfa6c58eb6/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/d23cfac6fd44ce3e9a8c7b4e18ff2938/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/4f509a65121478d6153615d7ef5b7c5f/core-1.1.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/a20a73fc01b18d3fde5e258f4cd5ad79/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/ee4a69f4f726969bc5c4f11a1f23bd91/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/411bdbedc35f51d8e6b1c352c69abc9b/lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/9aab56159b5d892e0145587101b1f3a4/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/680c4e7dfb2ec95aa38c2b313b866f08/jetified-transport-api-2.2.1/AndroidManifest.xml:15:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/d3986420b69bbcda2a26da93e8786bb5/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/b7d3a1583ae97d0e70a1770a1993bbf1/savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/21edf3c6b4f2eecf7b9eccd8e17daad5/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/b9668bd4c5473f0298eda6562aec7b99/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/596fc679c0cd5d4e81c0bb73a34a2445/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/71dd278aed309c95a240fbf4151d1363/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/dcbbc49e5cb5bb2aee330b22c38faa7c/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/fcf7d5609a86ac86db550c02db072902/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/85aaf6d6ace535aa686da35402289daa/jetified-fbcore-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:annotation:0.8.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/562a4d899b3a7a711a398f7636c8c187/annotation-0.8.2/AndroidManifest.xml:2:1-13:12
+INJECTED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:1:1-100:12
+INJECTED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:1:1-100:12
+INJECTED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:1:1-100:12
+	package
+		ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:3:3-28
+		INJECTED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:1:1-100:12
+		INJECTED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:2:3-49
+	android:versionCode
+		INJECTED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:1:1-100:12
+		INJECTED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.CAMERA
+ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:5:3-63
+	android:name
+		ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:5:20-60
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:6:3-78
+	android:name
+		ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:6:20-76
+uses-permission#android.permission.INTERNET
+ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:8:5-67
+MERGED from [:react-native-kontaktio] /Users/felipemoreira/poc_cliente/node_modules/react-native-kontaktio/android/build/intermediates/library_manifest/release/AndroidManifest.xml:16:5-67
+MERGED from [:react-native-kontaktio] /Users/felipemoreira/poc_cliente/node_modules/react-native-kontaktio/android/build/intermediates/library_manifest/release/AndroidManifest.xml:16:5-67
+MERGED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:16:5-67
+MERGED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:16:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/5832ca22fba61f4b836055a1f2dada0f/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/5832ca22fba61f4b836055a1f2dada0f/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-iid:21.0.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/0d19aee348d6d9d6f3dc0e7b62546afc/firebase-iid-21.0.1/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:21.0.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/0d19aee348d6d9d6f3dc0e7b62546afc/firebase-iid-21.0.1/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/0e4025356d09b89949e11d2a7d389e01/play-services-cloud-messaging-16.0.0/AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/0e4025356d09b89949e11d2a7d389e01/play-services-cloud-messaging-16.0.0/AndroidManifest.xml:8:5-67
+MERGED from [com.google.firebase:firebase-installations:16.3.5] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/19cc6065970dfa1c36aca42e79a10040/firebase-installations-16.3.5/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-installations:16.3.5] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/19cc6065970dfa1c36aca42e79a10040/firebase-installations-16.3.5/AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:8:22-64
+uses-permission#android.permission.BLUETOOTH
+ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:10:5-67
+MERGED from [:react-native-kontaktio] /Users/felipemoreira/poc_cliente/node_modules/react-native-kontaktio/android/build/intermediates/library_manifest/release/AndroidManifest.xml:18:5-68
+MERGED from [:react-native-kontaktio] /Users/felipemoreira/poc_cliente/node_modules/react-native-kontaktio/android/build/intermediates/library_manifest/release/AndroidManifest.xml:18:5-68
+	android:name
+		ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:10:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:12:5-73
+MERGED from [:react-native-kontaktio] /Users/felipemoreira/poc_cliente/node_modules/react-native-kontaktio/android/build/intermediates/library_manifest/release/AndroidManifest.xml:20:5-74
+MERGED from [:react-native-kontaktio] /Users/felipemoreira/poc_cliente/node_modules/react-native-kontaktio/android/build/intermediates/library_manifest/release/AndroidManifest.xml:20:5-74
+	android:name
+		ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:12:22-71
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:14:5-77
+	android:name
+		ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:14:22-75
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:16:5-78
+MERGED from [:react-native-kontaktio] /Users/felipemoreira/poc_cliente/node_modules/react-native-kontaktio/android/build/intermediates/library_manifest/release/AndroidManifest.xml:23:5-79
+MERGED from [:react-native-kontaktio] /Users/felipemoreira/poc_cliente/node_modules/react-native-kontaktio/android/build/intermediates/library_manifest/release/AndroidManifest.xml:23:5-79
+MERGED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:24:5-79
+MERGED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/5832ca22fba61f4b836055a1f2dada0f/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/5832ca22fba61f4b836055a1f2dada0f/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.5] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/de21729780878a49f216bd07dbb8213f/jetified-transport-runtime-2.2.5/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.5] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/de21729780878a49f216bd07dbb8213f/jetified-transport-runtime-2.2.5/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:21.0.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/0d19aee348d6d9d6f3dc0e7b62546afc/firebase-iid-21.0.1/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:21.0.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/0d19aee348d6d9d6f3dc0e7b62546afc/firebase-iid-21.0.1/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/0e4025356d09b89949e11d2a7d389e01/play-services-cloud-messaging-16.0.0/AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/0e4025356d09b89949e11d2a7d389e01/play-services-cloud-messaging-16.0.0/AndroidManifest.xml:7:5-79
+MERGED from [com.google.firebase:firebase-installations:16.3.5] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/19cc6065970dfa1c36aca42e79a10040/firebase-installations-16.3.5/AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-installations:16.3.5] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/19cc6065970dfa1c36aca42e79a10040/firebase-installations-16.3.5/AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:16:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:18:5-81
+MERGED from [:react-native-kontaktio] /Users/felipemoreira/poc_cliente/node_modules/react-native-kontaktio/android/build/intermediates/library_manifest/release/AndroidManifest.xml:25:5-81
+MERGED from [:react-native-kontaktio] /Users/felipemoreira/poc_cliente/node_modules/react-native-kontaktio/android/build/intermediates/library_manifest/release/AndroidManifest.xml:25:5-81
+	android:name
+		ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:18:22-78
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:20:5-65
+MERGED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:23:5-66
+MERGED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:23:5-66
+	android:name
+		ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:20:22-63
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:23:5-77
+MERGED from [:react-native-background-actions] /Users/felipemoreira/poc_cliente/node_modules/react-native-background-actions/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-77
+MERGED from [:react-native-background-actions] /Users/felipemoreira/poc_cliente/node_modules/react-native-background-actions/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-77
+	android:name
+		ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:23:22-74
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:24:5-68
+MERGED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:18:5-68
+MERGED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:18:5-68
+MERGED from [com.google.firebase:firebase-iid:21.0.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/0d19aee348d6d9d6f3dc0e7b62546afc/firebase-iid-21.0.1/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:21.0.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/0d19aee348d6d9d6f3dc0e7b62546afc/firebase-iid-21.0.1/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/0e4025356d09b89949e11d2a7d389e01/play-services-cloud-messaging-16.0.0/AndroidManifest.xml:9:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/0e4025356d09b89949e11d2a7d389e01/play-services-cloud-messaging-16.0.0/AndroidManifest.xml:9:5-68
+	android:name
+		ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:24:22-65
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:30:5-80
+MERGED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:29:5-81
+MERGED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:29:5-81
+	android:name
+		ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:30:22-78
+application
+ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:32:5-98:19
+MERGED from [:react-native-community_datetimepicker] /Users/felipemoreira/poc_cliente/node_modules/@react-native-community/datetimepicker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-20
+MERGED from [:react-native-community_datetimepicker] /Users/felipemoreira/poc_cliente/node_modules/@react-native-community/datetimepicker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-20
+MERGED from [:react-native-image-picker] /Users/felipemoreira/poc_cliente/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:9:5-19:19
+MERGED from [:react-native-image-picker] /Users/felipemoreira/poc_cliente/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:9:5-19:19
+MERGED from [com.facebook.react:react-native:0.62.2] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/1c5df223a9a2df949a801e0ef9a6f1e7/jetified-react-native-0.62.2/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.react:react-native:0.62.2] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/1c5df223a9a2df949a801e0ef9a6f1e7/jetified-react-native-0.62.2/AndroidManifest.xml:11:5-20
+MERGED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:48:5-120:19
+MERGED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:48:5-120:19
+MERGED from [com.google.android.material:material:1.1.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/7b4521e09033db39989053c4a0984cc2/material-1.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.1.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/7b4521e09033db39989053c4a0984cc2/material-1.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-messaging:21.0.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/12ac603724a5876acb587d4b43d9d021/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:22:5-43:19
+MERGED from [com.google.firebase:firebase-messaging:21.0.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/12ac603724a5876acb587d4b43d9d021/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:22:5-43:19
+MERGED from [com.google.firebase:firebase-datatransport:17.0.10] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/97d58ff9fc579eb85391e02cf487fdf5/firebase-datatransport-17.0.10/AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.firebase:firebase-datatransport:17.0.10] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/97d58ff9fc579eb85391e02cf487fdf5/firebase-datatransport-17.0.10/AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/5832ca22fba61f4b836055a1f2dada0f/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/5832ca22fba61f4b836055a1f2dada0f/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.5] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/de21729780878a49f216bd07dbb8213f/jetified-transport-runtime-2.2.5/AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.5] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/de21729780878a49f216bd07dbb8213f/jetified-transport-runtime-2.2.5/AndroidManifest.xml:25:5-39:19
+MERGED from [com.facebook.soloader:soloader:0.8.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/9de4f137b5bba80ebab04e77dc5095d4/soloader-0.8.0/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.8.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/9de4f137b5bba80ebab04e77dc5095d4/soloader-0.8.0/AndroidManifest.xml:11:5-20
+MERGED from [com.google.firebase:firebase-iid:21.0.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/0d19aee348d6d9d6f3dc0e7b62546afc/firebase-iid-21.0.1/AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-iid:21.0.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/0d19aee348d6d9d6f3dc0e7b62546afc/firebase-iid-21.0.1/AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/d913e169400b8c01c0bb4a9a48c96bb0/play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/d913e169400b8c01c0bb4a9a48c96bb0/play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-installations:16.3.5] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/19cc6065970dfa1c36aca42e79a10040/firebase-installations-16.3.5/AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-installations:16.3.5] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/19cc6065970dfa1c36aca42e79a10040/firebase-installations-16.3.5/AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-common:19.5.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/a957bd94864a0dc13aecd6a2a08cb585/jetified-firebase-common-19.5.0/AndroidManifest.xml:25:5-47:19
+MERGED from [com.google.firebase:firebase-common:19.5.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/a957bd94864a0dc13aecd6a2a08cb585/jetified-firebase-common-19.5.0/AndroidManifest.xml:25:5-47:19
+MERGED from [com.google.android.gms:play-services-location:15.0.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/419b0ea1ddfce98c381a36966f8d7f13/jetified-play-services-location-15.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:15.0.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/419b0ea1ddfce98c381a36966f8d7f13/jetified-play-services-location-15.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/8418dc3980d9b820e9bd67c67fa7c5f1/firebase-iid-interop-17.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/8418dc3980d9b820e9bd67c67fa7c5f1/firebase-iid-interop-17.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/6d45d9e0505112f0eec54f8796757f91/play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/6d45d9e0505112f0eec54f8796757f91/play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/6158af36f33dab56a52a643764c9ece8/play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/6158af36f33dab56a52a643764c9ece8/play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/5bcc5ffe0611964dbc9ba5667cbf30dc/firebase-measurement-connector-18.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/5bcc5ffe0611964dbc9ba5667cbf30dc/firebase-measurement-connector-18.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/857d20595f83afb926b7b2c201b00292/jetified-play-services-ads-identifier-16.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/857d20595f83afb926b7b2c201b00292/jetified-play-services-ads-identifier-16.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/e31722fa2accb80820b4c9a1b61c1e65/play-services-places-placereport-15.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/e31722fa2accb80820b4c9a1b61c1e65/play-services-places-placereport-15.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/e8059d4c5b195d19e550c58ecdbc7943/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/e8059d4c5b195d19e550c58ecdbc7943/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.1.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/4f509a65121478d6153615d7ef5b7c5f/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/4f509a65121478d6153615d7ef5b7c5f/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/ee4a69f4f726969bc5c4f11a1f23bd91/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/ee4a69f4f726969bc5c4f11a1f23bd91/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [com.facebook.soloader:annotation:0.8.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/562a4d899b3a7a711a398f7636c8c187/annotation-0.8.2/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:annotation:0.8.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/562a4d899b3a7a711a398f7636c8c187/annotation-0.8.2/AndroidManifest.xml:11:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/4f509a65121478d6153615d7ef5b7c5f/core-1.1.0/AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:34:7-39
+	android:roundIcon
+		ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:36:7-52
+	tools:targetApi
+		ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:40:7-26
+	android:icon
+		ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:35:7-41
+	android:allowBackup
+		ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:38:7-34
+	android:theme
+		ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:39:7-38
+	android:usesCleartextTraffic
+		ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:37:7-42
+	android:name
+		ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:33:7-38
+service#com.asterinet.react.bgactions.RNBackgroundActionsTask
+ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:42:7-87
+	android:name
+		ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:42:16-84
+meta-data#com.dieam.reactnativepushnotification.notification_channel_name
+ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:44:7-45:57
+	android:value
+		ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:45:9-55
+	android:name
+		ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:44:19-97
+meta-data#com.dieam.reactnativepushnotification.notification_channel_description
+ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:46:7-47:64
+	android:value
+		ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:47:9-62
+	android:name
+		ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:46:19-104
+meta-data#com.dieam.reactnativepushnotification.notification_foreground
+ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:49:7-50:32
+	android:value
+		ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:50:9-30
+	android:name
+		ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:49:19-95
+meta-data#com.dieam.reactnativepushnotification.channel_create_default
+ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:52:7-53:31
+	android:value
+		ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:53:9-29
+	android:name
+		ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:52:19-94
+meta-data#com.dieam.reactnativepushnotification.notification_color
+ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:55:7-56:42
+	android:resource
+		ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:56:9-40
+	android:name
+		ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:55:19-90
+receiver#com.dieam.reactnativepushnotification.modules.RNPushNotificationActions
+ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:58:7-106
+	android:name
+		ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:58:17-103
+receiver#com.dieam.reactnativepushnotification.modules.RNPushNotificationPublisher
+ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:59:7-108
+	android:name
+		ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:59:17-105
+receiver#com.dieam.reactnativepushnotification.modules.RNPushNotificationBootEventReceiver
+ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:60:7-64:18
+	android:name
+		ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:60:17-113
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED
+ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:61:9-63:25
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:62:11-73
+	android:name
+		ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:62:19-70
+service#com.dieam.reactnativepushnotification.modules.RNPushNotificationListenerService
+ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:66:7-72:17
+	android:exported
+		ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:68:9-33
+	android:name
+		ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:67:9-103
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:69:9-71:25
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:70:11-72
+	android:name
+		ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:70:19-69
+service#com.kontakt.sdk.android.ble.service.ProximityService
+ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:74:7-110
+	android:exported
+		ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:74:84-108
+	android:name
+		ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:74:16-83
+activity#com.appgobarber.MainActivity
+ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:76:7-96:18
+	android:label
+		ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:78:9-41
+	android:launchMode
+		ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:80:9-40
+	android:windowSoftInputMode
+		ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:81:9-51
+	android:configChanges
+		ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:79:9-86
+	android:name
+		ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:77:9-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:82:9-85:25
+action#android.intent.action.MAIN
+ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:83:13-65
+	android:name
+		ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:83:21-62
+category#android.intent.category.LAUNCHER
+ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:84:13-73
+	android:name
+		ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:84:23-70
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:yourSchemeHere
+ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:88:9-94:25
+	android:label
+		ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:88:24-59
+action#android.intent.action.VIEW
+ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:89:11-63
+	android:name
+		ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:89:19-60
+category#android.intent.category.DEFAULT
+ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:90:11-70
+	android:name
+		ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:90:21-67
+category#android.intent.category.BROWSABLE
+ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:91:11-72
+	android:name
+		ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:91:21-69
+data
+ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:92:11-93:46
+	android:scheme
+		ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:92:17-48
+	tools:ignore
+		ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:93:13-43
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:97:7-84
+	android:name
+		ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml:97:17-81
+uses-sdk
+INJECTED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/2c67e628ec5e10a6dc480e38352e91b8/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/2c67e628ec5e10a6dc480e38352e91b8/multidex-2.0.0/AndroidManifest.xml:20:5-43
+MERGED from [:react-native-push-notification] /Users/felipemoreira/poc_cliente/node_modules/react-native-push-notification/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-push-notification] /Users/felipemoreira/poc_cliente/node_modules/react-native-push-notification/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-community_async-storage] /Users/felipemoreira/poc_cliente/node_modules/@react-native-community/async-storage/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_async-storage] /Users/felipemoreira/poc_cliente/node_modules/@react-native-community/async-storage/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_datetimepicker] /Users/felipemoreira/poc_cliente/node_modules/@react-native-community/datetimepicker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-community_datetimepicker] /Users/felipemoreira/poc_cliente/node_modules/@react-native-community/datetimepicker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-community_masked-view] /Users/felipemoreira/poc_cliente/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_masked-view] /Users/felipemoreira/poc_cliente/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_toolbar-android] /Users/felipemoreira/poc_cliente/node_modules/@react-native-community/toolbar-android/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-community_toolbar-android] /Users/felipemoreira/poc_cliente/node_modules/@react-native-community/toolbar-android/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-background-actions] /Users/felipemoreira/poc_cliente/node_modules/react-native-background-actions/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-background-actions] /Users/felipemoreira/poc_cliente/node_modules/react-native-background-actions/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] /Users/felipemoreira/poc_cliente/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] /Users/felipemoreira/poc_cliente/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-image-picker] /Users/felipemoreira/poc_cliente/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-image-picker] /Users/felipemoreira/poc_cliente/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-kontaktio] /Users/felipemoreira/poc_cliente/node_modules/react-native-kontaktio/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:5-14:41
+MERGED from [:react-native-kontaktio] /Users/felipemoreira/poc_cliente/node_modules/react-native-kontaktio/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:5-14:41
+MERGED from [:react-native-onesignal] /Users/felipemoreira/poc_cliente/node_modules/react-native-onesignal/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-onesignal] /Users/felipemoreira/poc_cliente/node_modules/react-native-onesignal/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-reanimated] /Users/felipemoreira/poc_cliente/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-reanimated] /Users/felipemoreira/poc_cliente/node_modules/react-native-reanimated/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-safe-area-context] /Users/felipemoreira/poc_cliente/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-safe-area-context] /Users/felipemoreira/poc_cliente/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-screens] /Users/felipemoreira/poc_cliente/node_modules/react-native-screens/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-screens] /Users/felipemoreira/poc_cliente/node_modules/react-native-screens/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /Users/felipemoreira/poc_cliente/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /Users/felipemoreira/poc_cliente/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.62.2] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/1c5df223a9a2df949a801e0ef9a6f1e7/jetified-react-native-0.62.2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.62.2] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/1c5df223a9a2df949a801e0ef9a6f1e7/jetified-react-native-0.62.2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:4:5-44
+MERGED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:4:5-44
+MERGED from [androidx.browser:browser:1.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/1502ef13e4107c97aa0c7f716e06e9a0/browser-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/1502ef13e4107c97aa0c7f716e06e9a0/browser-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/a0cc55542e7f80901507e4e652970d1e/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/a0cc55542e7f80901507e4e652970d1e/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/055a171d10c43231a2795117ecd4c3fd/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/055a171d10c43231a2795117ecd4c3fd/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [org.webkit:android-jsc:r245459] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/1ed26cdc1f47a6754ce1546799dd43a1/android-jsc-r245459/AndroidManifest.xml:7:5-9:41
+MERGED from [org.webkit:android-jsc:r245459] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/1ed26cdc1f47a6754ce1546799dd43a1/android-jsc-r245459/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.material:material:1.1.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/7b4521e09033db39989053c4a0984cc2/material-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/7b4521e09033db39989053c4a0984cc2/material-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/2b7e6ebaa515cd43f42fb356f0d1941c/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/2b7e6ebaa515cd43f42fb356f0d1941c/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [me.leolin:ShortcutBadger:1.1.22] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/bd2bbcd276844ceb33e057af9bc9d953/ShortcutBadger-1.1.22/AndroidManifest.xml:7:5-9:41
+MERGED from [me.leolin:ShortcutBadger:1.1.22] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/bd2bbcd276844ceb33e057af9bc9d953/ShortcutBadger-1.1.22/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-messaging:21.0.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/12ac603724a5876acb587d4b43d9d021/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:21.0.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/12ac603724a5876acb587d4b43d9d021/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-datatransport:17.0.10] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/97d58ff9fc579eb85391e02cf487fdf5/firebase-datatransport-17.0.10/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-datatransport:17.0.10] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/97d58ff9fc579eb85391e02cf487fdf5/firebase-datatransport-17.0.10/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/5832ca22fba61f4b836055a1f2dada0f/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/5832ca22fba61f4b836055a1f2dada0f/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.5] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/de21729780878a49f216bd07dbb8213f/jetified-transport-runtime-2.2.5/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.5] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/de21729780878a49f216bd07dbb8213f/jetified-transport-runtime-2.2.5/AndroidManifest.xml:18:5-20:41
+MERGED from [com.facebook.fresco:fresco:2.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/83ef104dfb430f397d92e4759e916162/fresco-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/83ef104dfb430f397d92e4759e916162/fresco-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/8547c58d8a189afcab5540191afe7320/imagepipeline-okhttp3-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/8547c58d8a189afcab5540191afe7320/imagepipeline-okhttp3-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/ee0a0f1df6ec82b39c6bd94672681bab/drawee-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/ee0a0f1df6ec82b39c6bd94672681bab/drawee-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/fbdc3e33c0cf4fb6618b3fcc8d105591/nativeimagefilters-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/fbdc3e33c0cf4fb6618b3fcc8d105591/nativeimagefilters-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/c3b7b12f448628b281d0d62b884cad68/imagepipeline-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/c3b7b12f448628b281d0d62b884cad68/imagepipeline-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/3b198830d922c7c36b5728d232b5dfa2/nativeimagetranscoder-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/3b198830d922c7c36b5728d232b5dfa2/nativeimagetranscoder-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/8b504391aa72c1fccbfde5f9aecf364d/imagepipeline-base-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/8b504391aa72c1fccbfde5f9aecf364d/imagepipeline-base-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.8.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/9de4f137b5bba80ebab04e77dc5095d4/soloader-0.8.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.8.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/9de4f137b5bba80ebab04e77dc5095d4/soloader-0.8.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.kontaktio:sdk:4.0.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/f283f2b1c14122006a53527ef68513c6/sdk-4.0.1/AndroidManifest.xml:7:5-9:41
+MERGED from [com.kontaktio:sdk:4.0.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/f283f2b1c14122006a53527ef68513c6/sdk-4.0.1/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/3eb43dcc83336306d77ef63b3402a327/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/3eb43dcc83336306d77ef63b3402a327/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/edab9a506dbd8c78a6f1a18fc4eb209e/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/edab9a506dbd8c78a6f1a18fc4eb209e/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/3e974e7e51555c82be5b9fd468966b2b/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/3e974e7e51555c82be5b9fd468966b2b/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:21.0.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/0d19aee348d6d9d6f3dc0e7b62546afc/firebase-iid-21.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:21.0.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/0d19aee348d6d9d6f3dc0e7b62546afc/firebase-iid-21.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/0e4025356d09b89949e11d2a7d389e01/play-services-cloud-messaging-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/0e4025356d09b89949e11d2a7d389e01/play-services-cloud-messaging-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/d913e169400b8c01c0bb4a9a48c96bb0/play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/d913e169400b8c01c0bb4a9a48c96bb0/play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations:16.3.5] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/19cc6065970dfa1c36aca42e79a10040/firebase-installations-16.3.5/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-installations:16.3.5] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/19cc6065970dfa1c36aca42e79a10040/firebase-installations-16.3.5/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:19.5.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/a957bd94864a0dc13aecd6a2a08cb585/jetified-firebase-common-19.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:19.5.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/a957bd94864a0dc13aecd6a2a08cb585/jetified-firebase-common-19.5.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-installations-interop:16.0.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/75cd08ddfa2e3a5ce804bc2c31d815f7/firebase-installations-interop-16.0.1/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-installations-interop:16.0.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/75cd08ddfa2e3a5ce804bc2c31d815f7/firebase-installations-interop-16.0.1/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-location:15.0.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/419b0ea1ddfce98c381a36966f8d7f13/jetified-play-services-location-15.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:15.0.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/419b0ea1ddfce98c381a36966f8d7f13/jetified-play-services-location-15.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/8418dc3980d9b820e9bd67c67fa7c5f1/firebase-iid-interop-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/8418dc3980d9b820e9bd67c67fa7c5f1/firebase-iid-interop-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/6d45d9e0505112f0eec54f8796757f91/play-services-base-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/6d45d9e0505112f0eec54f8796757f91/play-services-base-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/6158af36f33dab56a52a643764c9ece8/play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/6158af36f33dab56a52a643764c9ece8/play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/5bcc5ffe0611964dbc9ba5667cbf30dc/firebase-measurement-connector-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/5bcc5ffe0611964dbc9ba5667cbf30dc/firebase-measurement-connector-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/857d20595f83afb926b7b2c201b00292/jetified-play-services-ads-identifier-16.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/857d20595f83afb926b7b2c201b00292/jetified-play-services-ads-identifier-16.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/e31722fa2accb80820b4c9a1b61c1e65/play-services-places-placereport-15.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/e31722fa2accb80820b4c9a1b61c1e65/play-services-places-placereport-15.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/e8059d4c5b195d19e550c58ecdbc7943/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/e8059d4c5b195d19e550c58ecdbc7943/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/33fa28bb10cd4d05c9c7b76910e2f1d7/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/33fa28bb10cd4d05c9c7b76910e2f1d7/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/57896e3f8d3af1ea30640dfb96021293/fragment-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/57896e3f8d3af1ea30640dfb96021293/fragment-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/420bad76d144494602cd19d31fe9bd87/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/420bad76d144494602cd19d31fe9bd87/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-components:16.1.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/4545e768701f94332557301c4840215f/jetified-firebase-components-16.1.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:16.1.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/4545e768701f94332557301c4840215f/jetified-firebase-components-16.1.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/f76102809c884a586ad2f2fe99b2bdc1/firebase-encoders-json-17.1.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/f76102809c884a586ad2f2fe99b2bdc1/firebase-encoders-json-17.1.0/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/97914c6c2bf3a10c0dbc0cbbac018fe9/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/97914c6c2bf3a10c0dbc0cbbac018fe9/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/3d8e4bc7a6af7aacf11542b377d7496f/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/3d8e4bc7a6af7aacf11542b377d7496f/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/b95a670ae7bd376b7902e15855cd0ee3/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/b95a670ae7bd376b7902e15855cd0ee3/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/35cad5169a4745c0bfde91156540bc0d/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/35cad5169a4745c0bfde91156540bc0d/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/b3384283a73b276daf1e9a12cf250bb7/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/b3384283a73b276daf1e9a12cf250bb7/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.1.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/90a42a2ce697149cad235e929844c219/activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/90a42a2ce697149cad235e929844c219/activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/24d6d583c434259890735095825ff497/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/24d6d583c434259890735095825ff497/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/d12f3cd832a8f12aaa6c028e5d7796c3/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/d12f3cd832a8f12aaa6c028e5d7796c3/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/f1fdfdf03c30563a3eb92f6c5b5051ce/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/f1fdfdf03c30563a3eb92f6c5b5051ce/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/a25b01144be0941df6bba7293d8c0f17/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/a25b01144be0941df6bba7293d8c0f17/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/e9872f4e302f432d4ed640cfa6c58eb6/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/e9872f4e302f432d4ed640cfa6c58eb6/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/d23cfac6fd44ce3e9a8c7b4e18ff2938/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/d23cfac6fd44ce3e9a8c7b4e18ff2938/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/4f509a65121478d6153615d7ef5b7c5f/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/4f509a65121478d6153615d7ef5b7c5f/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/a20a73fc01b18d3fde5e258f4cd5ad79/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/a20a73fc01b18d3fde5e258f4cd5ad79/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/ee4a69f4f726969bc5c4f11a1f23bd91/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/ee4a69f4f726969bc5c4f11a1f23bd91/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/411bdbedc35f51d8e6b1c352c69abc9b/lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/411bdbedc35f51d8e6b1c352c69abc9b/lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/9aab56159b5d892e0145587101b1f3a4/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/9aab56159b5d892e0145587101b1f3a4/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/680c4e7dfb2ec95aa38c2b313b866f08/jetified-transport-api-2.2.1/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/680c4e7dfb2ec95aa38c2b313b866f08/jetified-transport-api-2.2.1/AndroidManifest.xml:18:5-20:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/d3986420b69bbcda2a26da93e8786bb5/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/d3986420b69bbcda2a26da93e8786bb5/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/b7d3a1583ae97d0e70a1770a1993bbf1/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/b7d3a1583ae97d0e70a1770a1993bbf1/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/21edf3c6b4f2eecf7b9eccd8e17daad5/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/21edf3c6b4f2eecf7b9eccd8e17daad5/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/b9668bd4c5473f0298eda6562aec7b99/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/b9668bd4c5473f0298eda6562aec7b99/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/596fc679c0cd5d4e81c0bb73a34a2445/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/596fc679c0cd5d4e81c0bb73a34a2445/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/71dd278aed309c95a240fbf4151d1363/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/71dd278aed309c95a240fbf4151d1363/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/dcbbc49e5cb5bb2aee330b22c38faa7c/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/dcbbc49e5cb5bb2aee330b22c38faa7c/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/fcf7d5609a86ac86db550c02db072902/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/fcf7d5609a86ac86db550c02db072902/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/85aaf6d6ace535aa686da35402289daa/jetified-fbcore-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/85aaf6d6ace535aa686da35402289daa/jetified-fbcore-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:annotation:0.8.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/562a4d899b3a7a711a398f7636c8c187/annotation-0.8.2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:annotation:0.8.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/562a4d899b3a7a711a398f7636c8c187/annotation-0.8.2/AndroidManifest.xml:7:5-9:41
+INJECTED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/felipemoreira/poc_cliente/android/app/src/main/AndroidManifest.xml
+provider#com.imagepicker.FileProvider
+ADDED from [:react-native-image-picker] /Users/felipemoreira/poc_cliente/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:10:9-18:20
+	android:grantUriPermissions
+		ADDED from [:react-native-image-picker] /Users/felipemoreira/poc_cliente/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:14:13-47
+	android:authorities
+		ADDED from [:react-native-image-picker] /Users/felipemoreira/poc_cliente/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:13-60
+	android:exported
+		ADDED from [:react-native-image-picker] /Users/felipemoreira/poc_cliente/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:13:13-37
+	android:name
+		ADDED from [:react-native-image-picker] /Users/felipemoreira/poc_cliente/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:13-56
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:react-native-image-picker] /Users/felipemoreira/poc_cliente/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:15:13-17:58
+	android:resource
+		ADDED from [:react-native-image-picker] /Users/felipemoreira/poc_cliente/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:17:17-55
+	android:name
+		ADDED from [:react-native-image-picker] /Users/felipemoreira/poc_cliente/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:16:17-67
+permission#${applicationId}.permission.C2D_MESSAGE
+MERGED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:7:5-9:47
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+MERGED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:11:5-79
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:17:5-82
+MERGED from [com.google.firebase:firebase-iid:21.0.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/0d19aee348d6d9d6f3dc0e7b62546afc/firebase-iid-21.0.1/AndroidManifest.xml:26:5-82
+MERGED from [com.google.firebase:firebase-iid:21.0.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/0d19aee348d6d9d6f3dc0e7b62546afc/firebase-iid-21.0.1/AndroidManifest.xml:26:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/0e4025356d09b89949e11d2a7d389e01/play-services-cloud-messaging-16.0.0/AndroidManifest.xml:11:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/0e4025356d09b89949e11d2a7d389e01/play-services-cloud-messaging-16.0.0/AndroidManifest.xml:11:5-82
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:17:22-79
+uses-permission#com.sec.android.provider.badge.permission.READ
+ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:31:5-86
+MERGED from [me.leolin:ShortcutBadger:1.1.22] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/bd2bbcd276844ceb33e057af9bc9d953/ShortcutBadger-1.1.22/AndroidManifest.xml:19:5-86
+MERGED from [me.leolin:ShortcutBadger:1.1.22] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/bd2bbcd276844ceb33e057af9bc9d953/ShortcutBadger-1.1.22/AndroidManifest.xml:19:5-86
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:31:22-83
+uses-permission#com.sec.android.provider.badge.permission.WRITE
+ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:32:5-87
+MERGED from [me.leolin:ShortcutBadger:1.1.22] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/bd2bbcd276844ceb33e057af9bc9d953/ShortcutBadger-1.1.22/AndroidManifest.xml:20:5-87
+MERGED from [me.leolin:ShortcutBadger:1.1.22] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/bd2bbcd276844ceb33e057af9bc9d953/ShortcutBadger-1.1.22/AndroidManifest.xml:20:5-87
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:32:22-84
+uses-permission#com.htc.launcher.permission.READ_SETTINGS
+ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:33:5-81
+MERGED from [me.leolin:ShortcutBadger:1.1.22] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/bd2bbcd276844ceb33e057af9bc9d953/ShortcutBadger-1.1.22/AndroidManifest.xml:23:5-81
+MERGED from [me.leolin:ShortcutBadger:1.1.22] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/bd2bbcd276844ceb33e057af9bc9d953/ShortcutBadger-1.1.22/AndroidManifest.xml:23:5-81
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:33:22-78
+uses-permission#com.htc.launcher.permission.UPDATE_SHORTCUT
+ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:34:5-83
+MERGED from [me.leolin:ShortcutBadger:1.1.22] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/bd2bbcd276844ceb33e057af9bc9d953/ShortcutBadger-1.1.22/AndroidManifest.xml:24:5-83
+MERGED from [me.leolin:ShortcutBadger:1.1.22] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/bd2bbcd276844ceb33e057af9bc9d953/ShortcutBadger-1.1.22/AndroidManifest.xml:24:5-83
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:34:22-80
+uses-permission#com.sonyericsson.home.permission.BROADCAST_BADGE
+ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:35:5-88
+MERGED from [me.leolin:ShortcutBadger:1.1.22] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/bd2bbcd276844ceb33e057af9bc9d953/ShortcutBadger-1.1.22/AndroidManifest.xml:27:5-88
+MERGED from [me.leolin:ShortcutBadger:1.1.22] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/bd2bbcd276844ceb33e057af9bc9d953/ShortcutBadger-1.1.22/AndroidManifest.xml:27:5-88
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:35:22-85
+uses-permission#com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
+ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:36:5-92
+MERGED from [me.leolin:ShortcutBadger:1.1.22] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/bd2bbcd276844ceb33e057af9bc9d953/ShortcutBadger-1.1.22/AndroidManifest.xml:28:5-92
+MERGED from [me.leolin:ShortcutBadger:1.1.22] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/bd2bbcd276844ceb33e057af9bc9d953/ShortcutBadger-1.1.22/AndroidManifest.xml:28:5-92
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:36:22-89
+uses-permission#com.anddoes.launcher.permission.UPDATE_COUNT
+ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:37:5-84
+MERGED from [me.leolin:ShortcutBadger:1.1.22] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/bd2bbcd276844ceb33e057af9bc9d953/ShortcutBadger-1.1.22/AndroidManifest.xml:31:5-84
+MERGED from [me.leolin:ShortcutBadger:1.1.22] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/bd2bbcd276844ceb33e057af9bc9d953/ShortcutBadger-1.1.22/AndroidManifest.xml:31:5-84
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:37:22-81
+uses-permission#com.majeur.launcher.permission.UPDATE_BADGE
+ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:38:5-83
+MERGED from [me.leolin:ShortcutBadger:1.1.22] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/bd2bbcd276844ceb33e057af9bc9d953/ShortcutBadger-1.1.22/AndroidManifest.xml:34:5-83
+MERGED from [me.leolin:ShortcutBadger:1.1.22] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/bd2bbcd276844ceb33e057af9bc9d953/ShortcutBadger-1.1.22/AndroidManifest.xml:34:5-83
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:38:22-80
+uses-permission#com.huawei.android.launcher.permission.CHANGE_BADGE
+ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:39:5-91
+MERGED from [me.leolin:ShortcutBadger:1.1.22] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/bd2bbcd276844ceb33e057af9bc9d953/ShortcutBadger-1.1.22/AndroidManifest.xml:37:5-91
+MERGED from [me.leolin:ShortcutBadger:1.1.22] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/bd2bbcd276844ceb33e057af9bc9d953/ShortcutBadger-1.1.22/AndroidManifest.xml:37:5-91
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:39:22-88
+uses-permission#com.huawei.android.launcher.permission.READ_SETTINGS
+ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:40:5-92
+MERGED from [me.leolin:ShortcutBadger:1.1.22] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/bd2bbcd276844ceb33e057af9bc9d953/ShortcutBadger-1.1.22/AndroidManifest.xml:38:5-92
+MERGED from [me.leolin:ShortcutBadger:1.1.22] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/bd2bbcd276844ceb33e057af9bc9d953/ShortcutBadger-1.1.22/AndroidManifest.xml:38:5-92
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:40:22-89
+uses-permission#com.huawei.android.launcher.permission.WRITE_SETTINGS
+ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:41:5-93
+MERGED from [me.leolin:ShortcutBadger:1.1.22] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/bd2bbcd276844ceb33e057af9bc9d953/ShortcutBadger-1.1.22/AndroidManifest.xml:39:5-93
+MERGED from [me.leolin:ShortcutBadger:1.1.22] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/bd2bbcd276844ceb33e057af9bc9d953/ShortcutBadger-1.1.22/AndroidManifest.xml:39:5-93
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:41:22-90
+uses-permission#android.permission.READ_APP_BADGE
+ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:42:5-73
+MERGED from [me.leolin:ShortcutBadger:1.1.22] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/bd2bbcd276844ceb33e057af9bc9d953/ShortcutBadger-1.1.22/AndroidManifest.xml:42:5-73
+MERGED from [me.leolin:ShortcutBadger:1.1.22] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/bd2bbcd276844ceb33e057af9bc9d953/ShortcutBadger-1.1.22/AndroidManifest.xml:42:5-73
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:42:22-70
+uses-permission#com.oppo.launcher.permission.READ_SETTINGS
+ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:43:5-82
+MERGED from [me.leolin:ShortcutBadger:1.1.22] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/bd2bbcd276844ceb33e057af9bc9d953/ShortcutBadger-1.1.22/AndroidManifest.xml:45:5-82
+MERGED from [me.leolin:ShortcutBadger:1.1.22] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/bd2bbcd276844ceb33e057af9bc9d953/ShortcutBadger-1.1.22/AndroidManifest.xml:45:5-82
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:43:22-79
+uses-permission#com.oppo.launcher.permission.WRITE_SETTINGS
+ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:44:5-83
+MERGED from [me.leolin:ShortcutBadger:1.1.22] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/bd2bbcd276844ceb33e057af9bc9d953/ShortcutBadger-1.1.22/AndroidManifest.xml:46:5-83
+MERGED from [me.leolin:ShortcutBadger:1.1.22] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/bd2bbcd276844ceb33e057af9bc9d953/ShortcutBadger-1.1.22/AndroidManifest.xml:46:5-83
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:44:22-80
+uses-permission#me.everything.badger.permission.BADGE_COUNT_READ
+ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:45:5-88
+MERGED from [me.leolin:ShortcutBadger:1.1.22] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/bd2bbcd276844ceb33e057af9bc9d953/ShortcutBadger-1.1.22/AndroidManifest.xml:49:5-88
+MERGED from [me.leolin:ShortcutBadger:1.1.22] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/bd2bbcd276844ceb33e057af9bc9d953/ShortcutBadger-1.1.22/AndroidManifest.xml:49:5-88
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:45:22-85
+uses-permission#me.everything.badger.permission.BADGE_COUNT_WRITE
+ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:46:5-89
+MERGED from [me.leolin:ShortcutBadger:1.1.22] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/bd2bbcd276844ceb33e057af9bc9d953/ShortcutBadger-1.1.22/AndroidManifest.xml:50:5-89
+MERGED from [me.leolin:ShortcutBadger:1.1.22] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/bd2bbcd276844ceb33e057af9bc9d953/ShortcutBadger-1.1.22/AndroidManifest.xml:50:5-89
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:46:22-86
+meta-data#onesignal_app_id
+ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:49:9-51:51
+	android:value
+		ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:51:13-48
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:50:13-44
+meta-data#onesignal_google_project_number
+ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:53:9-55:70
+	android:value
+		ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:55:13-67
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:54:13-59
+receiver#com.onesignal.GcmBroadcastReceiver
+ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:57:9-67:20
+	android:permission
+		ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:59:13-73
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:58:13-62
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:${applicationId}
+ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:62:13-66:29
+	android:priority
+		ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:62:28-50
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:com.RNBackgroundActionsTask
+ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:62:13-66:29
+	android:priority
+		ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:62:28-50
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:63:17-81
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:63:25-78
+category#${applicationId}
+ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:65:17-61
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:65:27-58
+category#com.RNBackgroundActionsTask
+ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:65:17-61
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:65:27-58
+receiver#com.onesignal.NotificationOpenedReceiver
+ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:68:9-77
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:68:19-74
+service#com.onesignal.HmsMessageServiceOneSignal
+ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:70:9-76:19
+	android:exported
+		ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:72:13-37
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:71:13-68
+intent-filter#action:name:com.huawei.push.action.MESSAGING_EVENT
+ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:73:13-75:29
+action#com.huawei.push.action.MESSAGING_EVENT
+ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:74:17-81
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:74:25-78
+activity#com.onesignal.NotificationOpenedActivityHMS
+ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:78:9-84:20
+	android:theme
+		ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:80:13-72
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:79:13-71
+intent-filter#action:name:android.intent.action.VIEW
+ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:81:13-83:29
+service#com.onesignal.GcmIntentService
+ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:86:9-66
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:86:18-63
+service#com.onesignal.GcmIntentJobService
+ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:87:9-89:72
+	android:permission
+		ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:89:13-69
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:88:13-61
+service#com.onesignal.RestoreJobService
+ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:90:9-92:72
+	android:permission
+		ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:92:13-69
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:91:13-59
+service#com.onesignal.RestoreKickoffJobService
+ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:93:9-95:72
+	android:permission
+		ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:95:13-69
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:94:13-66
+service#com.onesignal.SyncService
+ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:96:9-98:43
+	android:stopWithTask
+		ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:98:13-40
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:97:13-53
+service#com.onesignal.SyncJobService
+ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:99:9-101:72
+	android:permission
+		ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:101:13-69
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:100:13-56
+activity#com.onesignal.PermissionsActivity
+ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:103:9-105:75
+	android:theme
+		ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:105:13-72
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:104:13-61
+service#com.onesignal.NotificationRestoreService
+ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:107:9-76
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:107:18-73
+receiver#com.onesignal.BootUpReceiver
+ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:109:9-114:20
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:109:19-62
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.QUICKBOOT_POWERON
+ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:110:13-113:29
+action#android.intent.action.QUICKBOOT_POWERON
+ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:112:17-82
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:112:25-79
+receiver#com.onesignal.UpgradeReceiver
+ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:115:9-119:20
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:115:19-63
+intent-filter#action:name:android.intent.action.MY_PACKAGE_REPLACED
+ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:116:13-118:29
+action#android.intent.action.MY_PACKAGE_REPLACED
+ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:117:17-84
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/425e91f52f34e130418b5abca34e338f/jetified-OneSignal-3.15.1/AndroidManifest.xml:117:25-81
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:21.0.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/12ac603724a5876acb587d4b43d9d021/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:28:9-35:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:21.0.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/12ac603724a5876acb587d4b43d9d021/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:31:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-messaging:21.0.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/12ac603724a5876acb587d4b43d9d021/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:30:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:21.0.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/12ac603724a5876acb587d4b43d9d021/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:29:13-82
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-messaging:21.0.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/12ac603724a5876acb587d4b43d9d021/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:36:9-42:19
+MERGED from [com.google.firebase:firebase-datatransport:17.0.10] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/97d58ff9fc579eb85391e02cf487fdf5/firebase-datatransport-17.0.10/AndroidManifest.xml:25:9-31:19
+MERGED from [com.google.firebase:firebase-datatransport:17.0.10] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/97d58ff9fc579eb85391e02cf487fdf5/firebase-datatransport-17.0.10/AndroidManifest.xml:25:9-31:19
+MERGED from [com.google.firebase:firebase-iid:21.0.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/0d19aee348d6d9d6f3dc0e7b62546afc/firebase-iid-21.0.1/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:21.0.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/0d19aee348d6d9d6f3dc0e7b62546afc/firebase-iid-21.0.1/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-installations:16.3.5] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/19cc6065970dfa1c36aca42e79a10040/firebase-installations-16.3.5/AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-installations:16.3.5] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/19cc6065970dfa1c36aca42e79a10040/firebase-installations-16.3.5/AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-common:19.5.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/a957bd94864a0dc13aecd6a2a08cb585/jetified-firebase-common-19.5.0/AndroidManifest.xml:33:9-46:19
+MERGED from [com.google.firebase:firebase-common:19.5.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/a957bd94864a0dc13aecd6a2a08cb585/jetified-firebase-common-19.5.0/AndroidManifest.xml:33:9-46:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:21.0.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/12ac603724a5876acb587d4b43d9d021/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:38:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:19.5.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/a957bd94864a0dc13aecd6a2a08cb585/jetified-firebase-common-19.5.0/AndroidManifest.xml:37:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:19.5.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/a957bd94864a0dc13aecd6a2a08cb585/jetified-firebase-common-19.5.0/AndroidManifest.xml:35:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:21.0.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/12ac603724a5876acb587d4b43d9d021/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:37:13-84
+meta-data#com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar
+ADDED from [com.google.firebase:firebase-messaging:21.0.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/12ac603724a5876acb587d4b43d9d021/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:39:13-41:85
+	android:value
+		ADDED from [com.google.firebase:firebase-messaging:21.0.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/12ac603724a5876acb587d4b43d9d021/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:41:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:21.0.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/12ac603724a5876acb587d4b43d9d021/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:40:17-119
+meta-data#com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar
+ADDED from [com.google.firebase:firebase-datatransport:17.0.10] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/97d58ff9fc579eb85391e02cf487fdf5/firebase-datatransport-17.0.10/AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-datatransport:17.0.10] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/97d58ff9fc579eb85391e02cf487fdf5/firebase-datatransport-17.0.10/AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-datatransport:17.0.10] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/97d58ff9fc579eb85391e02cf487fdf5/firebase-datatransport-17.0.10/AndroidManifest.xml:29:17-115
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/5832ca22fba61f4b836055a1f2dada0f/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.5] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/de21729780878a49f216bd07dbb8213f/jetified-transport-runtime-2.2.5/AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.5] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/de21729780878a49f216bd07dbb8213f/jetified-transport-runtime-2.2.5/AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/5832ca22fba61f4b836055a1f2dada0f/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/5832ca22fba61f4b836055a1f2dada0f/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:30:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/5832ca22fba61f4b836055a1f2dada0f/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:32:13-34:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/5832ca22fba61f4b836055a1f2dada0f/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:34:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/5832ca22fba61f4b836055a1f2dada0f/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:33:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.5] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/de21729780878a49f216bd07dbb8213f/jetified-transport-runtime-2.2.5/AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.5] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/de21729780878a49f216bd07dbb8213f/jetified-transport-runtime-2.2.5/AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.5] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/de21729780878a49f216bd07dbb8213f/jetified-transport-runtime-2.2.5/AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.5] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/de21729780878a49f216bd07dbb8213f/jetified-transport-runtime-2.2.5/AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.5] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/de21729780878a49f216bd07dbb8213f/jetified-transport-runtime-2.2.5/AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.5] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/de21729780878a49f216bd07dbb8213f/jetified-transport-runtime-2.2.5/AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.5] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/de21729780878a49f216bd07dbb8213f/jetified-transport-runtime-2.2.5/AndroidManifest.xml:33:13-132
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:21.0.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/0d19aee348d6d9d6f3dc0e7b62546afc/firebase-iid-21.0.1/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:21.0.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/0d19aee348d6d9d6f3dc0e7b62546afc/firebase-iid-21.0.1/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:21.0.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/0d19aee348d6d9d6f3dc0e7b62546afc/firebase-iid-21.0.1/AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:21.0.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/0d19aee348d6d9d6f3dc0e7b62546afc/firebase-iid-21.0.1/AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:21.0.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/0d19aee348d6d9d6f3dc0e7b62546afc/firebase-iid-21.0.1/AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:21.0.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/0d19aee348d6d9d6f3dc0e7b62546afc/firebase-iid-21.0.1/AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:21.0.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/0d19aee348d6d9d6f3dc0e7b62546afc/firebase-iid-21.0.1/AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:21.0.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/0d19aee348d6d9d6f3dc0e7b62546afc/firebase-iid-21.0.1/AndroidManifest.xml:41:13-43:29
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:16.3.5] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/19cc6065970dfa1c36aca42e79a10040/firebase-installations-16.3.5/AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:16.3.5] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/19cc6065970dfa1c36aca42e79a10040/firebase-installations-16.3.5/AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:16.3.5] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/19cc6065970dfa1c36aca42e79a10040/firebase-installations-16.3.5/AndroidManifest.xml:19:17-127
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:19.5.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/a957bd94864a0dc13aecd6a2a08cb585/jetified-firebase-common-19.5.0/AndroidManifest.xml:26:9-31:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:19.5.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/a957bd94864a0dc13aecd6a2a08cb585/jetified-firebase-common-19.5.0/AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:19.5.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/a957bd94864a0dc13aecd6a2a08cb585/jetified-firebase-common-19.5.0/AndroidManifest.xml:30:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:19.5.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/a957bd94864a0dc13aecd6a2a08cb585/jetified-firebase-common-19.5.0/AndroidManifest.xml:29:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:19.5.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/a957bd94864a0dc13aecd6a2a08cb585/jetified-firebase-common-19.5.0/AndroidManifest.xml:31:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:19.5.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/a957bd94864a0dc13aecd6a2a08cb585/jetified-firebase-common-19.5.0/AndroidManifest.xml:27:13-77
+meta-data#com.google.firebase.components:com.google.firebase.dynamicloading.DynamicLoadingRegistrar
+ADDED from [com.google.firebase:firebase-common:19.5.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/a957bd94864a0dc13aecd6a2a08cb585/jetified-firebase-common-19.5.0/AndroidManifest.xml:43:13-45:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common:19.5.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/a957bd94864a0dc13aecd6a2a08cb585/jetified-firebase-common-19.5.0/AndroidManifest.xml:45:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common:19.5.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/a957bd94864a0dc13aecd6a2a08cb585/jetified-firebase-common-19.5.0/AndroidManifest.xml:44:17-121
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/6d45d9e0505112f0eec54f8796757f91/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/6d45d9e0505112f0eec54f8796757f91/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/6d45d9e0505112f0eec54f8796757f91/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/6d45d9e0505112f0eec54f8796757f91/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/e8059d4c5b195d19e550c58ecdbc7943/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/e8059d4c5b195d19e550c58ecdbc7943/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/e8059d4c5b195d19e550c58ecdbc7943/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
