@@ -1,0 +1,539 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.RNBackgroundActionsTask"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="28" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:14:5-77
+11-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:14:22-75
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:5:3-63
+12-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:5:20-60
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:6:3-78
+13-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:6:20-76
+14    <uses-permission android:name="android.permission.INTERNET" /> <!-- Ranging/monitoring beacons -->
+14-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:8:5-67
+14-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:8:22-64
+15    <uses-permission android:name="android.permission.BLUETOOTH" /> <!-- Connecting to beacons -->
+15-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:10:5-67
+15-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:10:22-65
+16    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+16-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:12:5-73
+16-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:12:22-71
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Since Marshmallow -->
+17-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:16:5-78
+17-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:16:22-76
+18    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+18-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:18:5-81
+18-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:18:22-78
+19    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+19-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:19:5-79
+19-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:19:22-76
+20    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" /> <!-- Vibration -->
+20-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:20:5-85
+20-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:20:22-82
+21    <uses-permission android:name="android.permission.VIBRATE" /> <!-- Permissao para background -->
+21-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:23:5-65
+21-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:23:22-63
+22    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+22-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:26:5-77
+22-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:26:22-74
+23    <uses-permission android:name="android.permission.WAKE_LOCK" />
+23-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:27:5-68
+23-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:27:22-65
+24
+25    <permission
+26        android:name="com.RNBackgroundActionsTask.permission.C2D_MESSAGE"
+27        android:protectionLevel="signature" />
+28
+29    <uses-permission android:name="com.RNBackgroundActionsTask.permission.C2D_MESSAGE" />
+30    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+30-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:33:5-80
+30-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:33:22-78
+31    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+31-->[com.facebook.flipper:flipper:0.33.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/d8f1d959d80498ff8bb989a70554a157/jetified-flipper-0.33.1/AndroidManifest.xml:16:5-76
+31-->[com.facebook.flipper:flipper:0.33.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/d8f1d959d80498ff8bb989a70554a157/jetified-flipper-0.33.1/AndroidManifest.xml:16:22-73
+32    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" /> <!-- START: ShortcutBadger -->
+32-->[com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/017319114b84d2bde359661dbd607ca6/jetified-OneSignal-3.15.1/AndroidManifest.xml:17:5-82
+32-->[com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/017319114b84d2bde359661dbd607ca6/jetified-OneSignal-3.15.1/AndroidManifest.xml:17:22-79
+33    <!-- Samsung -->
+34    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+34-->[com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/017319114b84d2bde359661dbd607ca6/jetified-OneSignal-3.15.1/AndroidManifest.xml:31:5-86
+34-->[com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/017319114b84d2bde359661dbd607ca6/jetified-OneSignal-3.15.1/AndroidManifest.xml:31:22-83
+35    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- HTC -->
+35-->[com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/017319114b84d2bde359661dbd607ca6/jetified-OneSignal-3.15.1/AndroidManifest.xml:32:5-87
+35-->[com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/017319114b84d2bde359661dbd607ca6/jetified-OneSignal-3.15.1/AndroidManifest.xml:32:22-84
+36    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+36-->[com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/017319114b84d2bde359661dbd607ca6/jetified-OneSignal-3.15.1/AndroidManifest.xml:33:5-81
+36-->[com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/017319114b84d2bde359661dbd607ca6/jetified-OneSignal-3.15.1/AndroidManifest.xml:33:22-78
+37    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- Sony -->
+37-->[com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/017319114b84d2bde359661dbd607ca6/jetified-OneSignal-3.15.1/AndroidManifest.xml:34:5-83
+37-->[com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/017319114b84d2bde359661dbd607ca6/jetified-OneSignal-3.15.1/AndroidManifest.xml:34:22-80
+38    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+38-->[com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/017319114b84d2bde359661dbd607ca6/jetified-OneSignal-3.15.1/AndroidManifest.xml:35:5-88
+38-->[com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/017319114b84d2bde359661dbd607ca6/jetified-OneSignal-3.15.1/AndroidManifest.xml:35:22-85
+39    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- Apex -->
+39-->[com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/017319114b84d2bde359661dbd607ca6/jetified-OneSignal-3.15.1/AndroidManifest.xml:36:5-92
+39-->[com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/017319114b84d2bde359661dbd607ca6/jetified-OneSignal-3.15.1/AndroidManifest.xml:36:22-89
+40    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- Solid -->
+40-->[com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/017319114b84d2bde359661dbd607ca6/jetified-OneSignal-3.15.1/AndroidManifest.xml:37:5-84
+40-->[com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/017319114b84d2bde359661dbd607ca6/jetified-OneSignal-3.15.1/AndroidManifest.xml:37:22-81
+41    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- Huawei -->
+41-->[com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/017319114b84d2bde359661dbd607ca6/jetified-OneSignal-3.15.1/AndroidManifest.xml:38:5-83
+41-->[com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/017319114b84d2bde359661dbd607ca6/jetified-OneSignal-3.15.1/AndroidManifest.xml:38:22-80
+42    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+42-->[com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/017319114b84d2bde359661dbd607ca6/jetified-OneSignal-3.15.1/AndroidManifest.xml:39:5-91
+42-->[com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/017319114b84d2bde359661dbd607ca6/jetified-OneSignal-3.15.1/AndroidManifest.xml:39:22-88
+43    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+43-->[com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/017319114b84d2bde359661dbd607ca6/jetified-OneSignal-3.15.1/AndroidManifest.xml:40:5-92
+43-->[com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/017319114b84d2bde359661dbd607ca6/jetified-OneSignal-3.15.1/AndroidManifest.xml:40:22-89
+44    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- ZUK -->
+44-->[com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/017319114b84d2bde359661dbd607ca6/jetified-OneSignal-3.15.1/AndroidManifest.xml:41:5-93
+44-->[com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/017319114b84d2bde359661dbd607ca6/jetified-OneSignal-3.15.1/AndroidManifest.xml:41:22-90
+45    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- OPPO -->
+45-->[com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/017319114b84d2bde359661dbd607ca6/jetified-OneSignal-3.15.1/AndroidManifest.xml:42:5-73
+45-->[com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/017319114b84d2bde359661dbd607ca6/jetified-OneSignal-3.15.1/AndroidManifest.xml:42:22-70
+46    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+46-->[com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/017319114b84d2bde359661dbd607ca6/jetified-OneSignal-3.15.1/AndroidManifest.xml:43:5-82
+46-->[com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/017319114b84d2bde359661dbd607ca6/jetified-OneSignal-3.15.1/AndroidManifest.xml:43:22-79
+47    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- EvMe -->
+47-->[com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/017319114b84d2bde359661dbd607ca6/jetified-OneSignal-3.15.1/AndroidManifest.xml:44:5-83
+47-->[com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/017319114b84d2bde359661dbd607ca6/jetified-OneSignal-3.15.1/AndroidManifest.xml:44:22-80
+48    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+48-->[com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/017319114b84d2bde359661dbd607ca6/jetified-OneSignal-3.15.1/AndroidManifest.xml:45:5-88
+48-->[com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/017319114b84d2bde359661dbd607ca6/jetified-OneSignal-3.15.1/AndroidManifest.xml:45:22-85
+49    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+49-->[com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/017319114b84d2bde359661dbd607ca6/jetified-OneSignal-3.15.1/AndroidManifest.xml:46:5-89
+49-->[com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/017319114b84d2bde359661dbd607ca6/jetified-OneSignal-3.15.1/AndroidManifest.xml:46:22-86
+50
+51    <application
+51-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:35:5-101:19
+52        android:name="com.appgobarber.MainApplication"
+52-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:36:7-38
+53        android:allowBackup="false"
+53-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:41:7-34
+54        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+54-->[androidx.core:core:1.1.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/4f509a65121478d6153615d7ef5b7c5f/core-1.1.0/AndroidManifest.xml:24:18-86
+55        android:debuggable="true"
+56        android:icon="@mipmap/ic_launcher"
+56-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:38:7-41
+57        android:label="@string/app_name"
+57-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:37:7-39
+58        android:roundIcon="@mipmap/ic_launcher_round"
+58-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:39:7-52
+59        android:theme="@style/AppTheme"
+59-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:42:7-38
+60        android:usesCleartextTraffic="true" >
+60-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:40:7-42
+61        <service android:name="com.asterinet.react.bgactions.RNBackgroundActionsTask" /> <!-- NOTIFICATION -->
+61-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:45:7-87
+61-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:45:16-84
+62        <meta-data
+62-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:47:7-48:57
+63            android:name="com.dieam.reactnativepushnotification.notification_channel_name"
+63-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:47:19-97
+64            android:value="YOUR NOTIFICATION CHANNEL NAME" />
+64-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:48:9-55
+65        <meta-data
+65-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:49:7-50:64
+66            android:name="com.dieam.reactnativepushnotification.notification_channel_description"
+66-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:49:19-104
+67            android:value="YOUR NOTIFICATION CHANNEL DESCRIPTION" /> <!-- Change the value to true to enable pop-up for in foreground (remote-only, for local use ignoreInForeground) -->
+67-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:50:9-62
+68        <meta-data
+68-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:52:7-53:32
+69            android:name="com.dieam.reactnativepushnotification.notification_foreground"
+69-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:52:19-95
+70            android:value="false" /> <!-- Change the value to false if you don't want the creation of the default channel -->
+70-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:53:9-30
+71        <meta-data
+71-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:55:7-56:31
+72            android:name="com.dieam.reactnativepushnotification.channel_create_default"
+72-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:55:19-94
+73            android:value="true" /> <!-- Change the resource name to your App's accent color - or any other color you want -->
+73-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:56:9-29
+74        <meta-data
+74-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:58:7-59:42
+75            android:name="com.dieam.reactnativepushnotification.notification_color"
+75-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:58:19-90
+76            android:resource="@color/white" /> <!-- or @android:color/{name} to use a standard color -->
+76-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:59:9-40
+77        <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationActions" />
+77-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:61:7-106
+77-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:61:17-103
+78        <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationPublisher" />
+78-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:62:7-108
+78-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:62:17-105
+79        <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationBootEventReceiver" >
+79-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:63:7-67:18
+79-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:63:17-113
+80            <intent-filter>
+80-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:64:9-66:25
+81                <action android:name="android.intent.action.BOOT_COMPLETED" />
+81-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:65:11-73
+81-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:65:19-70
+82            </intent-filter>
+83        </receiver>
+84
+85        <service
+85-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:69:7-75:17
+86            android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationListenerService"
+86-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:70:9-103
+87            android:exported="false" >
+87-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:71:9-33
+88            <intent-filter>
+88-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:72:9-74:25
+89                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+89-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:73:11-72
+89-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:73:19-69
+90            </intent-filter>
+91        </service>
+92        <service
+92-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:77:7-110
+93            android:name="com.kontakt.sdk.android.ble.service.ProximityService"
+93-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:77:16-83
+94            android:exported="false" />
+94-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:77:84-108
+95
+96        <activity
+96-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:79:7-99:18
+97            android:name="com.appgobarber.MainActivity"
+97-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:80:9-37
+98            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+98-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:82:9-86
+99            android:label="@string/app_name"
+99-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:81:9-41
+100            android:launchMode="singleTask"
+100-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:83:9-40
+101            android:windowSoftInputMode="adjustResize" >
+101-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:84:9-51
+102            <intent-filter>
+102-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:85:9-88:25
+103                <action android:name="android.intent.action.MAIN" />
+103-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:86:13-65
+103-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:86:21-62
+104
+105                <category android:name="android.intent.category.LAUNCHER" />
+105-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:87:13-73
+105-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:87:23-70
+106            </intent-filter>
+107
+108            <!-- DEEP LINK -->
+109            <intent-filter android:label="filter_react_native" >
+109-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:91:9-97:25
+109-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:91:24-59
+110                <action android:name="android.intent.action.VIEW" />
+110-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:92:11-63
+110-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:92:19-60
+111
+112                <category android:name="android.intent.category.DEFAULT" />
+112-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:93:11-70
+112-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:93:21-67
+113                <category android:name="android.intent.category.BROWSABLE" />
+113-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:94:11-72
+113-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:94:21-69
+114
+115                <data android:scheme="yourSchemeHere" />
+115-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:95:11-96:46
+115-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:95:17-48
+116            </intent-filter>
+117        </activity>
+118        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+118-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:100:7-84
+118-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:100:17-81
+119
+120        <provider
+120-->[:react-native-image-picker] /Users/felipemoreira/Development/Bulb/farmacia_cliente/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:9-18:20
+121            android:name="com.imagepicker.FileProvider"
+121-->[:react-native-image-picker] /Users/felipemoreira/Development/Bulb/farmacia_cliente/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-56
+122            android:authorities="com.RNBackgroundActionsTask.provider"
+122-->[:react-native-image-picker] /Users/felipemoreira/Development/Bulb/farmacia_cliente/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-60
+123            android:exported="false"
+123-->[:react-native-image-picker] /Users/felipemoreira/Development/Bulb/farmacia_cliente/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-37
+124            android:grantUriPermissions="true" >
+124-->[:react-native-image-picker] /Users/felipemoreira/Development/Bulb/farmacia_cliente/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-47
+125            <meta-data
+125-->[:react-native-image-picker] /Users/felipemoreira/Development/Bulb/farmacia_cliente/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-17:58
+126                android:name="android.support.FILE_PROVIDER_PATHS"
+126-->[:react-native-image-picker] /Users/felipemoreira/Development/Bulb/farmacia_cliente/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:17-67
+127                android:resource="@xml/provider_paths" />
+127-->[:react-native-image-picker] /Users/felipemoreira/Development/Bulb/farmacia_cliente/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-55
+128        </provider>
+129
+130        <meta-data
+130-->[com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/017319114b84d2bde359661dbd607ca6/jetified-OneSignal-3.15.1/AndroidManifest.xml:49:9-51:51
+131            android:name="onesignal_app_id"
+131-->[com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/017319114b84d2bde359661dbd607ca6/jetified-OneSignal-3.15.1/AndroidManifest.xml:50:13-44
+132            android:value="" /> <!-- Deprecated - Pulled from OneSignal dashboard. -->
+132-->[com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/017319114b84d2bde359661dbd607ca6/jetified-OneSignal-3.15.1/AndroidManifest.xml:51:13-48
+133        <meta-data
+133-->[com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/017319114b84d2bde359661dbd607ca6/jetified-OneSignal-3.15.1/AndroidManifest.xml:53:9-55:70
+134            android:name="onesignal_google_project_number"
+134-->[com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/017319114b84d2bde359661dbd607ca6/jetified-OneSignal-3.15.1/AndroidManifest.xml:54:13-59
+135            android:value="str:REMOTE" />
+135-->[com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/017319114b84d2bde359661dbd607ca6/jetified-OneSignal-3.15.1/AndroidManifest.xml:55:13-67
+136
+137        <receiver
+137-->[com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/017319114b84d2bde359661dbd607ca6/jetified-OneSignal-3.15.1/AndroidManifest.xml:57:9-67:20
+138            android:name="com.onesignal.GcmBroadcastReceiver"
+138-->[com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/017319114b84d2bde359661dbd607ca6/jetified-OneSignal-3.15.1/AndroidManifest.xml:58:13-62
+139            android:permission="com.google.android.c2dm.permission.SEND" >
+139-->[com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/017319114b84d2bde359661dbd607ca6/jetified-OneSignal-3.15.1/AndroidManifest.xml:59:13-73
+140
+141            <!-- High priority so OneSignal payloads can be filtered from other GCM receivers if filterOtherGCMReceivers is enabled. -->
+142            <intent-filter android:priority="999" >
+142-->[com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/017319114b84d2bde359661dbd607ca6/jetified-OneSignal-3.15.1/AndroidManifest.xml:62:13-66:29
+142-->[com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/017319114b84d2bde359661dbd607ca6/jetified-OneSignal-3.15.1/AndroidManifest.xml:62:28-50
+143                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+143-->[com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/017319114b84d2bde359661dbd607ca6/jetified-OneSignal-3.15.1/AndroidManifest.xml:63:17-81
+143-->[com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/017319114b84d2bde359661dbd607ca6/jetified-OneSignal-3.15.1/AndroidManifest.xml:63:25-78
+144
+145                <category android:name="com.RNBackgroundActionsTask" />
+145-->[com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/017319114b84d2bde359661dbd607ca6/jetified-OneSignal-3.15.1/AndroidManifest.xml:65:17-61
+145-->[com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/017319114b84d2bde359661dbd607ca6/jetified-OneSignal-3.15.1/AndroidManifest.xml:65:27-58
+146            </intent-filter>
+147        </receiver>
+148        <receiver android:name="com.onesignal.NotificationOpenedReceiver" />
+148-->[com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/017319114b84d2bde359661dbd607ca6/jetified-OneSignal-3.15.1/AndroidManifest.xml:68:9-77
+148-->[com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/017319114b84d2bde359661dbd607ca6/jetified-OneSignal-3.15.1/AndroidManifest.xml:68:19-74
+149
+150        <service
+150-->[com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/017319114b84d2bde359661dbd607ca6/jetified-OneSignal-3.15.1/AndroidManifest.xml:70:9-76:19
+151            android:name="com.onesignal.HmsMessageServiceOneSignal"
+151-->[com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/017319114b84d2bde359661dbd607ca6/jetified-OneSignal-3.15.1/AndroidManifest.xml:71:13-68
+152            android:exported="false" >
+152-->[com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/017319114b84d2bde359661dbd607ca6/jetified-OneSignal-3.15.1/AndroidManifest.xml:72:13-37
+153            <intent-filter>
+153-->[com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/017319114b84d2bde359661dbd607ca6/jetified-OneSignal-3.15.1/AndroidManifest.xml:73:13-75:29
+154                <action android:name="com.huawei.push.action.MESSAGING_EVENT" />
+154-->[com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/017319114b84d2bde359661dbd607ca6/jetified-OneSignal-3.15.1/AndroidManifest.xml:74:17-81
+154-->[com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/017319114b84d2bde359661dbd607ca6/jetified-OneSignal-3.15.1/AndroidManifest.xml:74:25-78
+155            </intent-filter>
+156        </service>
+157
+158        <activity
+158-->[com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/017319114b84d2bde359661dbd607ca6/jetified-OneSignal-3.15.1/AndroidManifest.xml:78:9-84:20
+159            android:name="com.onesignal.NotificationOpenedActivityHMS"
+159-->[com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/017319114b84d2bde359661dbd607ca6/jetified-OneSignal-3.15.1/AndroidManifest.xml:79:13-71
+160            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+160-->[com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/017319114b84d2bde359661dbd607ca6/jetified-OneSignal-3.15.1/AndroidManifest.xml:80:13-72
+161            <intent-filter>
+161-->[com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/017319114b84d2bde359661dbd607ca6/jetified-OneSignal-3.15.1/AndroidManifest.xml:81:13-83:29
+162                <action android:name="android.intent.action.VIEW" />
+162-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:92:11-63
+162-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:92:19-60
+163            </intent-filter>
+164        </activity>
+165
+166        <service android:name="com.onesignal.GcmIntentService" />
+166-->[com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/017319114b84d2bde359661dbd607ca6/jetified-OneSignal-3.15.1/AndroidManifest.xml:86:9-66
+166-->[com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/017319114b84d2bde359661dbd607ca6/jetified-OneSignal-3.15.1/AndroidManifest.xml:86:18-63
+167        <service
+167-->[com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/017319114b84d2bde359661dbd607ca6/jetified-OneSignal-3.15.1/AndroidManifest.xml:87:9-89:72
+168            android:name="com.onesignal.GcmIntentJobService"
+168-->[com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/017319114b84d2bde359661dbd607ca6/jetified-OneSignal-3.15.1/AndroidManifest.xml:88:13-61
+169            android:permission="android.permission.BIND_JOB_SERVICE" />
+169-->[com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/017319114b84d2bde359661dbd607ca6/jetified-OneSignal-3.15.1/AndroidManifest.xml:89:13-69
+170        <service
+170-->[com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/017319114b84d2bde359661dbd607ca6/jetified-OneSignal-3.15.1/AndroidManifest.xml:90:9-92:72
+171            android:name="com.onesignal.RestoreJobService"
+171-->[com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/017319114b84d2bde359661dbd607ca6/jetified-OneSignal-3.15.1/AndroidManifest.xml:91:13-59
+172            android:permission="android.permission.BIND_JOB_SERVICE" />
+172-->[com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/017319114b84d2bde359661dbd607ca6/jetified-OneSignal-3.15.1/AndroidManifest.xml:92:13-69
+173        <service
+173-->[com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/017319114b84d2bde359661dbd607ca6/jetified-OneSignal-3.15.1/AndroidManifest.xml:93:9-95:72
+174            android:name="com.onesignal.RestoreKickoffJobService"
+174-->[com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/017319114b84d2bde359661dbd607ca6/jetified-OneSignal-3.15.1/AndroidManifest.xml:94:13-66
+175            android:permission="android.permission.BIND_JOB_SERVICE" />
+175-->[com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/017319114b84d2bde359661dbd607ca6/jetified-OneSignal-3.15.1/AndroidManifest.xml:95:13-69
+176        <service
+176-->[com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/017319114b84d2bde359661dbd607ca6/jetified-OneSignal-3.15.1/AndroidManifest.xml:96:9-98:43
+177            android:name="com.onesignal.SyncService"
+177-->[com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/017319114b84d2bde359661dbd607ca6/jetified-OneSignal-3.15.1/AndroidManifest.xml:97:13-53
+178            android:stopWithTask="true" />
+178-->[com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/017319114b84d2bde359661dbd607ca6/jetified-OneSignal-3.15.1/AndroidManifest.xml:98:13-40
+179        <service
+179-->[com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/017319114b84d2bde359661dbd607ca6/jetified-OneSignal-3.15.1/AndroidManifest.xml:99:9-101:72
+180            android:name="com.onesignal.SyncJobService"
+180-->[com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/017319114b84d2bde359661dbd607ca6/jetified-OneSignal-3.15.1/AndroidManifest.xml:100:13-56
+181            android:permission="android.permission.BIND_JOB_SERVICE" />
+181-->[com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/017319114b84d2bde359661dbd607ca6/jetified-OneSignal-3.15.1/AndroidManifest.xml:101:13-69
+182
+183        <activity
+183-->[com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/017319114b84d2bde359661dbd607ca6/jetified-OneSignal-3.15.1/AndroidManifest.xml:103:9-105:75
+184            android:name="com.onesignal.PermissionsActivity"
+184-->[com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/017319114b84d2bde359661dbd607ca6/jetified-OneSignal-3.15.1/AndroidManifest.xml:104:13-61
+185            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+185-->[com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/017319114b84d2bde359661dbd607ca6/jetified-OneSignal-3.15.1/AndroidManifest.xml:105:13-72
+186
+187        <service android:name="com.onesignal.NotificationRestoreService" />
+187-->[com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/017319114b84d2bde359661dbd607ca6/jetified-OneSignal-3.15.1/AndroidManifest.xml:107:9-76
+187-->[com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/017319114b84d2bde359661dbd607ca6/jetified-OneSignal-3.15.1/AndroidManifest.xml:107:18-73
+188
+189        <receiver android:name="com.onesignal.BootUpReceiver" >
+189-->[com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/017319114b84d2bde359661dbd607ca6/jetified-OneSignal-3.15.1/AndroidManifest.xml:109:9-114:20
+189-->[com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/017319114b84d2bde359661dbd607ca6/jetified-OneSignal-3.15.1/AndroidManifest.xml:109:19-62
+190            <intent-filter>
+190-->[com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/017319114b84d2bde359661dbd607ca6/jetified-OneSignal-3.15.1/AndroidManifest.xml:110:13-113:29
+191                <action android:name="android.intent.action.BOOT_COMPLETED" />
+191-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:65:11-73
+191-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:65:19-70
+192                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+192-->[com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/017319114b84d2bde359661dbd607ca6/jetified-OneSignal-3.15.1/AndroidManifest.xml:112:17-82
+192-->[com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/017319114b84d2bde359661dbd607ca6/jetified-OneSignal-3.15.1/AndroidManifest.xml:112:25-79
+193            </intent-filter>
+194        </receiver>
+195        <receiver android:name="com.onesignal.UpgradeReceiver" >
+195-->[com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/017319114b84d2bde359661dbd607ca6/jetified-OneSignal-3.15.1/AndroidManifest.xml:115:9-119:20
+195-->[com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/017319114b84d2bde359661dbd607ca6/jetified-OneSignal-3.15.1/AndroidManifest.xml:115:19-63
+196            <intent-filter>
+196-->[com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/017319114b84d2bde359661dbd607ca6/jetified-OneSignal-3.15.1/AndroidManifest.xml:116:13-118:29
+197                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+197-->[com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/017319114b84d2bde359661dbd607ca6/jetified-OneSignal-3.15.1/AndroidManifest.xml:117:17-84
+197-->[com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/017319114b84d2bde359661dbd607ca6/jetified-OneSignal-3.15.1/AndroidManifest.xml:117:25-81
+198            </intent-filter>
+199        </receiver>
+200        <!--
+201             FirebaseMessagingService performs security checks at runtime,
+202             but set to not exported to explicitly avoid allowing another app to call it.
+203        -->
+204        <service
+204-->[com.google.firebase:firebase-messaging:21.0.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/24b22e3186ca6bcdc35f617faff594df/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:28:9-35:19
+205            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+205-->[com.google.firebase:firebase-messaging:21.0.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/24b22e3186ca6bcdc35f617faff594df/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:29:13-82
+206            android:directBootAware="true"
+206-->[com.google.firebase:firebase-messaging:21.0.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/24b22e3186ca6bcdc35f617faff594df/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:30:13-43
+207            android:exported="false" >
+207-->[com.google.firebase:firebase-messaging:21.0.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/24b22e3186ca6bcdc35f617faff594df/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:31:13-37
+208            <intent-filter android:priority="-500" >
+208-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:72:9-74:25
+209                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+209-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:73:11-72
+209-->/Users/felipemoreira/Development/Bulb/farmacia_cliente/android/app/src/main/AndroidManifest.xml:73:19-69
+210            </intent-filter>
+211        </service>
+212        <service
+212-->[com.google.firebase:firebase-messaging:21.0.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/24b22e3186ca6bcdc35f617faff594df/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:36:9-42:19
+213            android:name="com.google.firebase.components.ComponentDiscoveryService"
+213-->[com.google.firebase:firebase-messaging:21.0.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/24b22e3186ca6bcdc35f617faff594df/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:37:13-84
+214            android:directBootAware="true"
+214-->[com.google.firebase:firebase-common:19.5.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/001c75508040c1c33daee2c31b117b0e/jetified-firebase-common-19.5.0/AndroidManifest.xml:35:13-43
+215            android:exported="false" >
+215-->[com.google.firebase:firebase-messaging:21.0.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/24b22e3186ca6bcdc35f617faff594df/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:38:13-37
+216            <meta-data
+216-->[com.google.firebase:firebase-messaging:21.0.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/24b22e3186ca6bcdc35f617faff594df/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:39:13-41:85
+217                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+217-->[com.google.firebase:firebase-messaging:21.0.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/24b22e3186ca6bcdc35f617faff594df/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:40:17-119
+218                android:value="com.google.firebase.components.ComponentRegistrar" />
+218-->[com.google.firebase:firebase-messaging:21.0.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/24b22e3186ca6bcdc35f617faff594df/jetified-firebase-messaging-21.0.1/AndroidManifest.xml:41:17-82
+219            <meta-data
+219-->[com.google.firebase:firebase-datatransport:17.0.10] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/97d58ff9fc579eb85391e02cf487fdf5/firebase-datatransport-17.0.10/AndroidManifest.xml:28:13-30:85
+220                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+220-->[com.google.firebase:firebase-datatransport:17.0.10] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/97d58ff9fc579eb85391e02cf487fdf5/firebase-datatransport-17.0.10/AndroidManifest.xml:29:17-115
+221                android:value="com.google.firebase.components.ComponentRegistrar" />
+221-->[com.google.firebase:firebase-datatransport:17.0.10] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/97d58ff9fc579eb85391e02cf487fdf5/firebase-datatransport-17.0.10/AndroidManifest.xml:30:17-82
+222            <meta-data
+222-->[com.google.firebase:firebase-iid:21.0.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/0d19aee348d6d9d6f3dc0e7b62546afc/firebase-iid-21.0.1/AndroidManifest.xml:32:13-34:85
+223                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+223-->[com.google.firebase:firebase-iid:21.0.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/0d19aee348d6d9d6f3dc0e7b62546afc/firebase-iid-21.0.1/AndroidManifest.xml:33:17-96
+224                android:value="com.google.firebase.components.ComponentRegistrar" />
+224-->[com.google.firebase:firebase-iid:21.0.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/0d19aee348d6d9d6f3dc0e7b62546afc/firebase-iid-21.0.1/AndroidManifest.xml:34:17-82
+225            <meta-data
+225-->[com.google.firebase:firebase-installations:16.3.5] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/19cc6065970dfa1c36aca42e79a10040/firebase-installations-16.3.5/AndroidManifest.xml:18:13-20:85
+226                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+226-->[com.google.firebase:firebase-installations:16.3.5] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/19cc6065970dfa1c36aca42e79a10040/firebase-installations-16.3.5/AndroidManifest.xml:19:17-127
+227                android:value="com.google.firebase.components.ComponentRegistrar" />
+227-->[com.google.firebase:firebase-installations:16.3.5] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/19cc6065970dfa1c36aca42e79a10040/firebase-installations-16.3.5/AndroidManifest.xml:20:17-82
+228            <!--
+229                This registrar is not defined in the dynamic-module-support sdk itself to allow non-firebase
+230                clients to use it as well, by defining this registrar in their own core/common library.
+231            -->
+232            <meta-data
+232-->[com.google.firebase:firebase-common:19.5.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/001c75508040c1c33daee2c31b117b0e/jetified-firebase-common-19.5.0/AndroidManifest.xml:43:13-45:85
+233                android:name="com.google.firebase.components:com.google.firebase.dynamicloading.DynamicLoadingRegistrar"
+233-->[com.google.firebase:firebase-common:19.5.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/001c75508040c1c33daee2c31b117b0e/jetified-firebase-common-19.5.0/AndroidManifest.xml:44:17-121
+234                android:value="com.google.firebase.components.ComponentRegistrar" />
+234-->[com.google.firebase:firebase-common:19.5.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/001c75508040c1c33daee2c31b117b0e/jetified-firebase-common-19.5.0/AndroidManifest.xml:45:17-82
+235        </service>
+236        <service
+236-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/3de76c75c95a855f899cfd1b7b6551c3/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:29:9-35:19
+237            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+237-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/3de76c75c95a855f899cfd1b7b6551c3/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:30:13-103
+238            android:exported="false" >
+238-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/3de76c75c95a855f899cfd1b7b6551c3/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:31:13-37
+239            <meta-data
+239-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/3de76c75c95a855f899cfd1b7b6551c3/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:32:13-34:39
+240                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+240-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/3de76c75c95a855f899cfd1b7b6551c3/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:33:17-94
+241                android:value="cct" />
+241-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/3de76c75c95a855f899cfd1b7b6551c3/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:34:17-36
+242        </service>
+243        <service
+243-->[com.google.android.datatransport:transport-runtime:2.2.5] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/65f00c6d5b679a8ee55885f7de40c460/jetified-transport-runtime-2.2.5/AndroidManifest.xml:26:9-30:19
+244            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+244-->[com.google.android.datatransport:transport-runtime:2.2.5] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/65f00c6d5b679a8ee55885f7de40c460/jetified-transport-runtime-2.2.5/AndroidManifest.xml:27:13-117
+245            android:exported="false"
+245-->[com.google.android.datatransport:transport-runtime:2.2.5] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/65f00c6d5b679a8ee55885f7de40c460/jetified-transport-runtime-2.2.5/AndroidManifest.xml:28:13-37
+246            android:permission="android.permission.BIND_JOB_SERVICE" >
+246-->[com.google.android.datatransport:transport-runtime:2.2.5] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/65f00c6d5b679a8ee55885f7de40c460/jetified-transport-runtime-2.2.5/AndroidManifest.xml:29:13-69
+247        </service>
+248
+249        <receiver
+249-->[com.google.android.datatransport:transport-runtime:2.2.5] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/65f00c6d5b679a8ee55885f7de40c460/jetified-transport-runtime-2.2.5/AndroidManifest.xml:32:9-34:40
+250            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+250-->[com.google.android.datatransport:transport-runtime:2.2.5] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/65f00c6d5b679a8ee55885f7de40c460/jetified-transport-runtime-2.2.5/AndroidManifest.xml:33:13-132
+251            android:exported="false" />
+251-->[com.google.android.datatransport:transport-runtime:2.2.5] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/65f00c6d5b679a8ee55885f7de40c460/jetified-transport-runtime-2.2.5/AndroidManifest.xml:34:13-37
+252        <receiver
+252-->[com.google.firebase:firebase-iid:21.0.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/0d19aee348d6d9d6f3dc0e7b62546afc/firebase-iid-21.0.1/AndroidManifest.xml:37:9-44:20
+253            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+253-->[com.google.firebase:firebase-iid:21.0.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/0d19aee348d6d9d6f3dc0e7b62546afc/firebase-iid-21.0.1/AndroidManifest.xml:38:13-78
+254            android:exported="true"
+254-->[com.google.firebase:firebase-iid:21.0.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/0d19aee348d6d9d6f3dc0e7b62546afc/firebase-iid-21.0.1/AndroidManifest.xml:39:13-36
+255            android:permission="com.google.android.c2dm.permission.SEND" >
+255-->[com.google.firebase:firebase-iid:21.0.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/0d19aee348d6d9d6f3dc0e7b62546afc/firebase-iid-21.0.1/AndroidManifest.xml:40:13-73
+256            <intent-filter>
+256-->[com.google.firebase:firebase-iid:21.0.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/0d19aee348d6d9d6f3dc0e7b62546afc/firebase-iid-21.0.1/AndroidManifest.xml:41:13-43:29
+257                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+257-->[com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/017319114b84d2bde359661dbd607ca6/jetified-OneSignal-3.15.1/AndroidManifest.xml:63:17-81
+257-->[com.onesignal:OneSignal:3.15.1] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/017319114b84d2bde359661dbd607ca6/jetified-OneSignal-3.15.1/AndroidManifest.xml:63:25-78
+258            </intent-filter>
+259        </receiver>
+260
+261        <provider
+261-->[com.google.firebase:firebase-common:19.5.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/001c75508040c1c33daee2c31b117b0e/jetified-firebase-common-19.5.0/AndroidManifest.xml:26:9-31:39
+262            android:name="com.google.firebase.provider.FirebaseInitProvider"
+262-->[com.google.firebase:firebase-common:19.5.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/001c75508040c1c33daee2c31b117b0e/jetified-firebase-common-19.5.0/AndroidManifest.xml:27:13-77
+263            android:authorities="com.RNBackgroundActionsTask.firebaseinitprovider"
+263-->[com.google.firebase:firebase-common:19.5.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/001c75508040c1c33daee2c31b117b0e/jetified-firebase-common-19.5.0/AndroidManifest.xml:28:13-72
+264            android:directBootAware="true"
+264-->[com.google.firebase:firebase-common:19.5.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/001c75508040c1c33daee2c31b117b0e/jetified-firebase-common-19.5.0/AndroidManifest.xml:29:13-43
+265            android:exported="false"
+265-->[com.google.firebase:firebase-common:19.5.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/001c75508040c1c33daee2c31b117b0e/jetified-firebase-common-19.5.0/AndroidManifest.xml:30:13-37
+266            android:initOrder="100" />
+266-->[com.google.firebase:firebase-common:19.5.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/001c75508040c1c33daee2c31b117b0e/jetified-firebase-common-19.5.0/AndroidManifest.xml:31:13-36
+267
+268        <activity
+268-->[com.google.android.gms:play-services-base:17.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/6d45d9e0505112f0eec54f8796757f91/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+269            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+269-->[com.google.android.gms:play-services-base:17.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/6d45d9e0505112f0eec54f8796757f91/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+270            android:exported="false"
+270-->[com.google.android.gms:play-services-base:17.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/6d45d9e0505112f0eec54f8796757f91/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+271            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+271-->[com.google.android.gms:play-services-base:17.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/6d45d9e0505112f0eec54f8796757f91/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+272
+273        <meta-data
+273-->[com.google.android.gms:play-services-basement:17.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/afdd3791f864f33a6ff6fcfc27e872a1/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+274            android:name="com.google.android.gms.version"
+274-->[com.google.android.gms:play-services-basement:17.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/afdd3791f864f33a6ff6fcfc27e872a1/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+275            android:value="@integer/google_play_services_version" />
+275-->[com.google.android.gms:play-services-basement:17.0.0] /Users/felipemoreira/.gradle/caches/transforms-2/files-2.1/afdd3791f864f33a6ff6fcfc27e872a1/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+276    </application>
+277
+278</manifest>

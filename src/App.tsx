@@ -30,7 +30,7 @@ import AppProvider from './hooks';
 import Routes from './routes';
 import { historicAdd } from './utils/historicAdd';
 
-const { connect, init, startDiscovery, startScanning } = Kontakt;
+const { connect, init, startDiscovery, startScanning, setBeaconRegions } = Kontakt;
 
 const kontaktEmitter = new NativeEventEmitter(KontaktModule);
 
@@ -288,7 +288,7 @@ const App: React.FC = () => {
     if (isAndroid) {
       const granted = await requestLocationPermission();
       if (granted) {
-        await connect();
+        await connect().then(() => setBeaconRegions([{uuid: '51677514-6788-8776-6688-655566888888'}]));
         await startScanning();
       } else {
         Alert.alert(
